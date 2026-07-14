@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KL University Campuses</title>
 
+<style>
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#b30000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.card h2{
+    margin:0;
+    color:#b30000;
+}
+
+.card p{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.button{
+    display:inline-block;
+    padding:12px 20px;
+    background:#d40000;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#990000;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+KL University Campus Locations
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>📍 Vijayawada Campus</h2>
+<p>KL University (Deemed to be University)</p>
+<a class="button" href="https://maps.app.goo.gl/g2NtUf3tgjdMW6AJ6" target="_blank">
+Open in Google Maps
+</a>
+</div>
+
+<div class="card">
+<h2>📍 Hyderabad - Aziz Nagar Campus</h2>
+<p>KLH University (B.Tech Campus)</p>
+<a class="button" href="https://maps.app.goo.gl/fr5x8K6S5GqgbUQx7" target="_blank">
+Open in Google Maps
+</a>
+</div>
+
+<div class="card">
+<h2>📍 Hyderabad - Bachupally Campus</h2>
+<p>KLH University (B.Tech Campus)</p>
+<a class="button" href="https://maps.app.goo.gl/D8g4keR4iqnEgKQT7" target="_blank">
+Open in Google Maps
+</a>
+</div>
+
+<div class="card">
+<h2>📍 Hyderabad - Kondapur Campus</h2>
+<p>KLH University Business School</p>
+<a class="button" href="https://maps.app.goo.gl/MUj28ciLC9jYxGA49" target="_blank">
+Open in Google Maps
+</a>
+</div>
+
+<div class="card">
+<h2>🏢 Administrative Office (AO) Vijayawada </h2>
+<p>KL University Admissions Administrative Office</p>
+<a class="button"
+href="https://maps.app.goo.gl/wKbJmHwFzp5qS3R39"
+target="_blank">
+Open in Google Maps
+</a>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
