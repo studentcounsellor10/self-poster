@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KL University Admission Poster</title>
+
+<style>
+body{
+margin:0;
+background:#f5f5f5;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+position:relative;
+width:100%;
+max-width:1080px;
+}
+
+.container img{
+width:100%;
+display:block;
+}
+
+.icon{
+position:absolute;
+display:block;
+}
+
+.phone{
+left:5%;
+top:79%;
+width:15%;
+height:13%;
+}
+
+.whatsapp{
+left:28%;
+top:79%;
+width:15%;
+height:13%;
+}
+
+.drive{
+left:50%;
+top:79%;
+width:15%;
+height:13%;
+}
+
+.location{
+left:73%;
+top:79%;
+width:15%;
+height:13%;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="poster.png" alt="Poster">
+
+<a class="icon phone"
+href="tel:8712695548"></a>
+
+<a class="icon whatsapp"
+href="https://wa.me/918712695548"
+target="_blank"></a>
+
+<a class="icon drive"
+href=https://docs.google.com/forms/d/e/1FAIpQLSdPG4gicft_7ntkpyl5lvLgcbCIVJiDjtrhSi9NMmTVFZkRuw/viewform?usp=publish-editor></a>
+
+<a class="icon location"
+href="locations.html"></a>
+
+</div>
+
+</body>
+</html>
 
