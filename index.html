@@ -3,85 +3,124 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KL University Admission Poster</title>
+<title>KL University Admissions</title>
 
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-margin:0;
-background:#f5f5f5;
-display:flex;
-justify-content:center;
-align-items:center;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
 }
 
 .container{
-position:relative;
-width:100%;
-max-width:1080px;
+    position:relative;
+    width:100%;
+    max-width:1080px;
 }
 
-.container img{
-width:100%;
-display:block;
+.poster{
+    width:100%;
+    display:block;
 }
 
+/* Clickable Areas */
 .icon{
-position:absolute;
-display:block;
+    position:absolute;
+    display:block;
 }
 
+/* Phone */
 .phone{
-left:5%;
-top:79%;
-width:15%;
-height:13%;
+    left:5%;
+    top:79%;
+    width:15%;
+    height:13%;
 }
 
+/* WhatsApp */
 .whatsapp{
-left:28%;
-top:79%;
-width:15%;
-height:13%;
+    left:27%;
+    top:79%;
+    width:15%;
+    height:13%;
 }
 
-.drive{
-left:50%;
-top:79%;
-width:15%;
-height:13%;
+/* Google Form */
+.form{
+    left:49%;
+    top:79%;
+    width:15%;
+    height:13%;
 }
 
+/* Location */
 .location{
-left:73%;
-top:79%;
-width:15%;
-height:13%;
+    left:71%;
+    top:79%;
+    width:15%;
+    height:13%;
+}
+
+/* Email Button */
+.email{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#0066cc;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 18px;
+    border-radius:30px;
+    font-family:Arial,sans-serif;
+    font-size:14px;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+.email:hover{
+    background:#004b99;
 }
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-<img src="poster.png" alt="Poster">
+<img src="poster.png" class="poster" alt="KL University Poster">
 
+<!-- Phone -->
 <a class="icon phone"
 href="tel:8712695548"></a>
 
+<!-- WhatsApp -->
 <a class="icon whatsapp"
 href="https://wa.me/918712695548"
 target="_blank"></a>
 
-<a class="icon drive"
-href="https://docs.google.com/forms/d/e/1FAIpQLSdPG4gicft_7ntkpyl5lvLgcbCIVJiDjtrhSi9NMmTVFZkRuw/viewform?usp=pp_url"</a>
+<!-- Google Form -->
+<a class="icon form"
+href="https://docs.google.com/forms/d/1M91KzmdAwedpU2N2PY_hnyuMhmFxwNI8zRqisGUY3x8/viewform"
+target="_blank"></a>
 
+<!-- Location -->
 <a class="icon location"
-href="locations.html"></a>
+href="location.html"></a>
 
 </div>
 
+<!-- Email -->
+<a class="email"
+href="mailto:studentcounsellor10@klh.edu.in">
+📧 studentcounsellor10@klh.edu.in
+</a>
+
 </body>
 </html>
-
